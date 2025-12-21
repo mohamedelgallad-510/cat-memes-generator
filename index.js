@@ -21,3 +21,5 @@ function renderEmotionsRadios(cats){
     
     emotionRadios.innerHTML = emotionsString
 }
+
+renderEmotionsRadios(catsData)
