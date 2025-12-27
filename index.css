@@ -57,7 +57,7 @@ header{
 .emotion-radios{
     display: flex;
     flex-direction: column;
-    border: 1px solid #bcbcbc;
+    border: 1px solid rose;
     border-radius: 5px;
 }
 
