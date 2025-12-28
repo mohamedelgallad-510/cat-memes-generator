@@ -71,8 +71,7 @@ function getMatchingCatsArray() {
                 return cat.emotionTags.includes(selectedEmotion)
                }
             })
-    console.log(matchingCatsArray)
-    console.log(isGif)
+    return matchingCatsArray
 }
 
 renderEmotionsRadios(catsData)
