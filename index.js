@@ -75,7 +75,11 @@ function getMatchingCatsArray() {
 }
 
 function getSingleCatObject(){
-
+    const catsArray = getMatchingCatsArray()
+    
+    if (catsArray.length === 1) {
+        console.log(catsArray[0])
+    }
 }
 
 function renderCat(){
