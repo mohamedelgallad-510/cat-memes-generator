@@ -17,7 +17,7 @@ const getImgBtn = document.getElementById('get-image-btn')
 const gifsOnlyOption = document.getElementById('gifs-only-option')
 
 
-getImgBtn.addEventListener('click', getMatchingCatsArray)
+getImgBtn.addEventListener('click', renderCat)
 emotionRadios.addEventListener('change', highlightCheckedOption)
 
 function highlightCheckedOption(e){
@@ -74,4 +74,10 @@ function getMatchingCatsArray() {
     return matchingCatsArray
 }
 
-renderEmotionsRadios(catsData)
+function getSingleCatObject(){
+
+}
+
+function renderCat(){
+
+}
